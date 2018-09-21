@@ -1,21 +1,22 @@
 # Indecision APP
-
-Dependencies: {
+============================
+ scripts:
+    "serve": "live-server public/",
+    "build": "webpack --watch",
+    "dev-server": "webpack-dev-server"
+=============================
+ dependencies: 
+    "babel-cli": "6.24.1",
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.4",
     "babel-preset-env": "1.5.2",
-    "babel-preset-react": "6.24.1"
-}
+    "babel-preset-react": "6.24.1",
+    "live-server": "^1.2.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "validator": "8.0.0",
+    "webpack": "3.1.0",
+    "webpack-dev-server": "2.5.1"
+==============================  
 npm version: 5.6.0
 yarn : 1.9.4
-
-npm install -g live-server
-npm install -g babel-cli@6.24.1
-
-Host using Live server:
-1) cd into project
-2) Live-server public
-
-Run follow to transform:
-
-babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
-
-babel src/experiments/es6-arrow-functions.js --out-file=public/scripts/app.js --presets=env,react --watch
