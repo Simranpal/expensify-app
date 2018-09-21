@@ -1,4 +1,4 @@
-# REACTAPP
+# Indecision APP
 
 Dependencies: {
     "babel-preset-env": "1.5.2",
