@@ -16,19 +16,19 @@ export default class IndecisionApp extends React.Component {
             })
         }));
         
-    }
+    };
     handleDeleteOptions = ( ) => {
         this.setState(()=>{
             return{
                 options:[]
             };
         });
-    }
+    };
     handlePick = () => {
             const randomNo = Math.floor(Math.random() * this.state.options.length);
             const option = this.state.options[randomNo];
             alert(option);
-    }
+    };
     handleAddOption = (option) => {
         if(!option) {
             return 'Enter valid value to add item';
@@ -41,7 +41,7 @@ export default class IndecisionApp extends React.Component {
                 options : prevState.options.concat(option)
             };
         });
-    }
+    };
 
     componentDidMount(){
         try {
