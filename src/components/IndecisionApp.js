@@ -8,27 +8,7 @@ export default class IndecisionApp extends React.Component {
     state = {
         options :['Thing 1', 'Thing 2', 'Thing 3', 'Thing 4']
     };
-    
-    componentDidMount(){
-        try {
-            const json = localStorage.getItem('options');
-            const options = JSON.parse(json);
-    
-            if(options){
-                this.setState(() => ({ options }));
-            }
-        }
-        catch(e) {
-
-        }
-        
-    }
-    componentDidUpdate(prevProps, prevState){
-        if(prevState.options.length !== this.state.options.length) {
-            const json = JSON.stringify(this.state.options);
-            localStorage.setItem('options', json);
-        }
-    }
+    //event handler methods
     handleDeleteOption = (optionToRemove) => {
         this.setState((prevState)=>({
             options : prevState.options.filter((option) => {
@@ -62,6 +42,28 @@ export default class IndecisionApp extends React.Component {
             };
         });
     }
+
+    componentDidMount(){
+        try {
+            const json = localStorage.getItem('options');
+            const options = JSON.parse(json);
+    
+            if(options){
+                this.setState(() => ({ options }));
+            }
+        }
+        catch(e) {
+
+        }
+        
+    }
+    componentDidUpdate(prevProps, prevState){
+        if(prevState.options.length !== this.state.options.length) {
+            const json = JSON.stringify(this.state.options);
+            localStorage.setItem('options', json);
+        }
+    }
+    //render method
     render() {
         const title = 'Indecision';
         const subTitle = 'Put your life in the hands of a computer';
