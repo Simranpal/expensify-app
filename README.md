@@ -1,4 +1,5 @@
 # Indecision APP
+yarn run dev-server
 
  scripts:
     "serve": "live-server public/",
