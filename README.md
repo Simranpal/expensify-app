@@ -19,7 +19,7 @@ This is a React application which allows user to enter item(s) in a list, press 
 - npm version: 5.6.0 or newer
 - yarn (npm package) 1.9.4 or newer
 - Install all the dependencies to make this project work : yarn install
-# Dependencies: 
+# Dependencies list: 
     "babel-cli": "6.24.1",
     "babel-core": "6.26.0",
     "babel-loader": "7.1.4",
