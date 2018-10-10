@@ -11,9 +11,9 @@ This is a React application which allows user to enter item(s) in a list, press 
 - HTML 5, CSS3, JavaScript ES6
 
 # App features
--cross browser compatible
--modular by functionality (React components) and style (scss files for each component)
--responsive: app's content and modal window
+- cross browser compatible
+- modular by functionality (React components) and style (scss files for each component)
+- responsive: app's content and modal window
 
 # Prerequisites
 - npm version: 5.6.0 or newer
