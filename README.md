@@ -34,10 +34,11 @@ This is a React application which allows user to enter item(s) in a list, press 
 
 # Running the app
 You need webpack to run this app along with above dependencies installed.
-Use the webpack dev server: yarn run dev-server
+Run the webpack dev server from the command line : yarn run dev-server
 
 access the app by opening a browser and goto http://localhost:8080/
-other useful scripts:
+
+Other useful scripts:
     "serve": "live-server public/",
     "build": "webpack --watch",
     "dev-server": "webpack-dev-server"
