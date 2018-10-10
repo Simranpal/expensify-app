@@ -1,8 +1,12 @@
 # Indecision APP
 In-progress currently.
-This is a React application which allows user to enter item(s) in a list, press a button and have the app randomly select an item.
+A React application to help you make decisions.
+
+This app which allows user to enter item(s) in a list, press a button and have the app randomly select an item.
 
 # Technology used
+Built on:
+
 - React, ReactDOM, ReactModal
 - Webpack, Webpack dev server
 - Babel - babel cli, babel-core, babel-loader, babel plugin for class properites, babel presets (react, env)
