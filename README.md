@@ -2,7 +2,7 @@
 In-progress currently.
 A React application to help you make decisions.
 
-This app which allows user to enter item(s) in a list, press a button and have the app randomly select an item.
+This app allows user to enter item(s) in a list, press a button and have the app randomly select an item.
 
 # Technology used
 Built on:
