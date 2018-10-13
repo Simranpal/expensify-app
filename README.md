@@ -1,7 +1,4 @@
-# Indecision APP
-A React application to help you make decisions.
-
-This app allows user to enter item(s) in a list, press a button and have the app randomly select an item.
+# expensify-app
 
 # Technology used
 Built on:
