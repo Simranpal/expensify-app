@@ -19,8 +19,9 @@ const store = createStore((state = { count : 0 }, action)=>{
             return state;
     }
 });
-
-console.log(store.getState());
+store.subscribe(() =>{
+    console.log(store.getState());
+});
 
 //Actions
 //increment count
@@ -39,4 +40,6 @@ store.dispatch({
     type : 'RESET'
 });
 
-console.log(store.getState());
+store.dispatch({
+    type : 'INCREMENT'
+});
