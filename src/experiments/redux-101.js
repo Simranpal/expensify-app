@@ -11,7 +11,10 @@ const store = createStore((state = { count : 0 }, action)=>{
             return {
                 count : state.count  - 1
             };
-
+        case 'RESET' : 
+            return {
+                count : 0
+            };
         default:
             return state;
     }
@@ -28,6 +31,12 @@ store.dispatch({
 //Decrement
 store.dispatch({
     type : 'DECREMENT'
+});
+
+
+//RESET
+store.dispatch({
+    type : 'RESET'
 });
 
 console.log(store.getState());
