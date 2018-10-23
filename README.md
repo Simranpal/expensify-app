@@ -10,11 +10,6 @@ Built on:
 - Normalize CSS
 - HTML 5, CSS3, JavaScript ES6
 
-# App features
-- cross browser compatible
-- modular by functionality (React components) and style (scss files for each component)
-- responsive: app's content and modal window
-
 # Prerequisites
 - npm version: 5.6.0 or newer
 - yarn (npm package) 1.9.4 or newer
